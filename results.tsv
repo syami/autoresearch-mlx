@@ -6,3 +6,4 @@ reverted	2.203166	10.8	discard	increase MATRIX_LR 0.08->0.12
 be9a7ef	2.050625	10.7	keep	halve TOTAL_BATCH_SIZE 2^16->2^15 (more steps)
 failed	NA	NA	discard	halve TOTAL_BATCH_SIZE 2^15->2^14 (more steps) (crashed)
 af85e19	1.943511	10.7	keep	shorten WARMDOWN_RATIO 0.5->0.3 (hold peak LR longer)
+f521f61	1.927584	10.7	keep	shorten WARMDOWN_RATIO 0.3->0.2 (hold peak LR longer)
