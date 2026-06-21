@@ -2,3 +2,4 @@ commit	val_bpb	memory_gb	status	description
 72c7494	2.321589	11.0	keep	baseline on Mac (depth 4, FINAL_EVAL_BATCH_SIZE=32 for 9.66GB Metal limit)
 39cff1f	2.253494	10.8	keep	increase MATRIX_LR 0.04->0.06
 52006d3	2.155513	10.8	keep	increase MATRIX_LR 0.06->0.08
+reverted	2.203166	10.8	discard	increase MATRIX_LR 0.08->0.12
