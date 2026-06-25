@@ -12,3 +12,4 @@ reverted	2.007145	10.7	discard	increase EMBEDDING_LR 0.8->1.0
 reverted	2.393331	10.7	discard	decrease WEIGHT_DECAY 0.2->0.1
 reverted	2.507031	10.7	discard	re-probe MATRIX_LR 0.08->0.10 (after batch/schedule changes)
 reverted	2.657537	12.7	discard	HEAD_DIM 128->64 (n_head 2->4, same dim/speed)
+reverted	2.516144	10.7	discard	increase UNEMBEDDING_LR 0.004->0.006
