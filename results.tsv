@@ -9,3 +9,4 @@ af85e19	1.943511	10.7	keep	shorten WARMDOWN_RATIO 0.5->0.3 (hold peak LR longer)
 f521f61	1.927584	10.7	keep	shorten WARMDOWN_RATIO 0.3->0.2 (hold peak LR longer)
 846341d	1.911884	10.7	keep	increase EMBEDDING_LR 0.6->0.8
 reverted	2.007145	10.7	discard	increase EMBEDDING_LR 0.8->1.0
+reverted	2.393331	10.7	discard	decrease WEIGHT_DECAY 0.2->0.1
